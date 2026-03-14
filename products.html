@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Products</title>
+</head>
+
+<body>
+
+<h1>Products</h1>
+
+<input id="name" placeholder="name">
+<input id="sku" placeholder="sku">
+<input id="unit" placeholder="unit">
+
+<button onclick="addProduct()">Add</button>
+
+<table border="1">
+
+<thead>
+
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>SKU</th>
+<th>Unit</th>
+</tr>
+
+</thead>
+
+<tbody id="products"></tbody>
+
+</table>
+
+<script src="js/api.js"></script>
+<script src="js/products.js"></script>
+
+</body>
+</html>
